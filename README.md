@@ -38,11 +38,45 @@
 
 ## Job/Step Configuration
 
-## 1. Simple Job
+### 1. Simple Job
 
 [SimpleJobConfig.java](src/main/java/com/nayak/springbatch/job/SimpleJobConfig.java)
 
-## 2.
+### 2. Multi-Step Job
+
+[MultiStepConfig.java](src/main/java/com/nayak/springbatch/job/MultiStepConfig.java)
+
+### 3. Conditional Job
+
+[ConditionalJobConfig.java](src/main/java/com/nayak/springbatch/job/ConditionalJobConfig.java)
+
+### 4. Decider Job
+
+[DeciderJobConfig.java](src/main/java/com/nayak/springbatch/job/DeciderJobConfig.java)
+
+### 5. Chunk Based Proceesing
+
+[ChunkedJobConfig.java](src/main/java/com/nayak/springbatch/job/ChunkedJobConfig.java)
+
+### 6. Parallel Job Processing
+
+[ParallelJobConfig.java](src/main/java/com/nayak/springbatch/job/ParallelJobConfig.java)
+
+### 7. Partitioned Job
+
+[PartitionJobConfig.java](src/main/java/com/nayak/springbatch/job/PartitionJobConfig.java)
+
+### 8. Retry Job - Step-level Retry
+
+[RetryJobConfig.java](src/main/java/com/nayak/springbatch/job/RetryJobConfig.java)
+
+### 9. Skip Logic Processing Job - Ignoring Problematic Records
+
+[SkipJobConfig.java](src/main/java/com/nayak/springbatch/job/SkipJobConfig.java)
+
+### 10. Listener Job
+
+[ListenerJobConfig.java](src/main/java/com/nayak/springbatch/job/ListenerJobConfig.java)
 
 ## Failure/Retry Handling
 
